@@ -1,5 +1,5 @@
 # Detection-and-counting-of-Tuberculosis-bacillus-on-sputum-smear-microscopic-images
-As a summer intern trainee at Siemens Healthineers, Bangalore, worked on the identification, classification and counting of tuberculosis bacillus on sputum smear microscopic images using Image processing and classical Machine learning techniques
+As a summer intern trainee at Siemens Healthineers, Bangalore, worked on the identification, classification and counting of tuberculosis bacillus on sputum smear microscopic images using Image processing and Machine learning techniques
 
 # About the project:
 Among the several methods of Tuberculosis (TB) diagnosis, sputum smear microscopy test is a non-invasive and economical one and is therefore, mostly preferred. In this test, the level of TB infection is identified by counting the number of TB bacilli count on the microscopic image. This counting process is manually performed by an expert technician. But manual identification and counting of bacilli is a very time consuming and labor-intensive task. Also, the sensitivity of TB detection relies on the experience of technician. To address these shortcomings, an automated method of detection and counting of TB bacilli is required, which will not only increase the accuracy but also reduces the time of diagnosis.
