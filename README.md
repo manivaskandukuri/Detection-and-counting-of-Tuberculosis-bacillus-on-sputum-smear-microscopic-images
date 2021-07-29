@@ -1,10 +1,15 @@
 # Detection-and-counting-of-Tuberculosis-bacillus-on-sputum-smear-microscopic-images
-As a summer intern trainee at Siemens Healthineers, Bangalore, worked on the identification, classification and counting of tuberculosis bacillus on sputum smear microscopic images using Image processing and Machine learning techniques
+As a summer intern trainee at Siemens Healthineers, Bangalore, reviewed existing literature and developed an automated technique to diagnose the level of infection of Tuberculosis (TB) disease based on the count of TB bacilli on sputum smear microscopic images. During this project, worked on the following activities to detect and count the number of TB bacilli for a given test image:
+
+(a) Image preprocessing (image segmentation and postprocessing)
+(b) Extraction of geometrical features and formation of data matrix
+(c) Outlier rejection and data balancing
+(d) Classification using Random Forest classifier and identification of single and overlapped bacilli
+(e) Counting the number of bacilli in each overlapped bacillus by separating it based on concave points and fitting ellipse to each segment
+(f) Calculate the final count of all single bacilli.
 
 # About the project:
 Among the several methods of Tuberculosis (TB) diagnosis, sputum smear microscopy test is a non-invasive and economical one and is therefore, mostly preferred. In this test, the level of TB infection is identified by counting the number of TB bacilli count on the microscopic image. This counting process is manually performed by an expert technician. But manual identification and counting of bacilli is a very time consuming and labor-intensive task. Also, the sensitivity of TB detection relies on the experience of technician. To address these shortcomings, an automated method of detection and counting of TB bacilli is required, which will not only increase the accuracy but also reduces the time of diagnosis.
-
-For the development of automated detection techniques of TB bacilli on Ziehl-Neelsen sputum smear microscopic images, a standard sputum smear microscopic image database [1] is developed by Mohammad Imran Shah and the same can be found here. As per the database, a microscopic image consists of 4 different types of objects on each image, i.e., single bacilli, bacilli cluster, unclassified red structures and artifacts. 
 
 The overall scope of this project is to identify the potential bacilli object, classify it into either of the 3 classes i.e., single bacillus, bacilli cluster and artifacts, count the number of single bacilli in each bacilli cluster and hence calculate the total number of single bacilli on a given image.
 
