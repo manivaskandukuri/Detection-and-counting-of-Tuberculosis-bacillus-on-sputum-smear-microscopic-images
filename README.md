@@ -1,5 +1,5 @@
 # Detection-and-counting-of-Tuberculosis-bacillus-on-sputum-smear-microscopic-images
-As a Data Science intern at Siemens Healthineers, Bangalore, reviewed existing literature and developed an automated technique to diagnose the level of infection of Tuberculosis (TB) disease based on the count of TB bacilli on sputum smear microscopic images. During this project, worked on the following activities to detect and count the number of TB bacilli for a given test image:
+As a Data Science intern at Siemens Healthineers, Bangalore, reviewed existing literature and developed an automated technique to diagnose the level of infection of Tuberculosis (TB) disease based on the count of TB bacilli on sputum smear microscopic images. Images from the standard ZNSM image database (ZNSM-idB) are used for this project. Worked on the following activities to detect and count the number of TB bacilli for a given test image:
 
 (a) Image preprocessing (image segmentation and postprocessing)
 (b) Extraction of geometrical features and formation of data matrix
