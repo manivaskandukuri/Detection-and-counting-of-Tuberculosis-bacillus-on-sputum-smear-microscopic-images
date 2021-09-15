@@ -1,12 +1,12 @@
 # Detection-and-counting-of-Tuberculosis-bacillus-on-sputum-smear-microscopic-images
-As a Data Science intern at Siemens Healthineers, Bangalore, reviewed existing literature and developed an automated technique to diagnose the level of infection of Tuberculosis (TB) disease based on the count of TB bacilli on sputum smear microscopic images. Images from the standard ZNSM image database (ZNSM-idB) are used for this project. Worked on the following activities to detect and count the number of TB bacilli for a given test image:
+Developed an automated method to diagnose the level of infection of Tuberculosis (TB) disease based on the count of TB bacilli on sputum smear microscopic images. Images from the standard ZNSM image database (ZNSM-idB) are used for this project. Following activities are involved in this project:
 
 (a) Image preprocessing (image segmentation and postprocessing)
-(b) Extraction of geometrical features and formation of data matrix
-(c) Outlier rejection and data balancing
-(d) Classification using Random Forest classifier and identification of single and overlapped bacilli
-(e) Counting the number of bacilli in each overlapped bacillus by separating it based on concave points and fitting ellipse to each segment
-(f) Calculate the final count of all single bacilli.
+(b) Feature Engineering
+(c) Building a machine learning model
+(d) Classification of objects into single bacillus/overlapped bacillus/non-bacillus
+(e) Separation of overlapped bacillus and counting the number of single bacilli in each overlapped bacillus
+(f) Calculation of overall count of single bacilli.
 
 # About the project:
 Among the several methods of Tuberculosis (TB) diagnosis, sputum smear microscopy test is a non-invasive and economical one and is therefore, mostly preferred. In this test, the level of TB infection is identified by counting the number of TB bacilli count on the microscopic image. This counting process is manually performed by an expert technician. But manual identification and counting of bacilli is a very time consuming and labor-intensive task. Also, the sensitivity of TB detection relies on the experience of technician. To address these shortcomings, an automated method of detection and counting of TB bacilli is required, which will not only increase the accuracy but also reduces the time of diagnosis.
